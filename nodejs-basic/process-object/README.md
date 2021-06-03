@@ -35,3 +35,19 @@ $ NODE_ENV=development node index.js <Nama Anda>
 ```bash
 $ SET NODE_ENV=development && node index.js <Nama Anda> 
 ```
+
+## Answer
+```js
+const initialMemoryUsage = process.memoryUsage().heapUsed; //TODO `
+const yourName = process.argv[2]; //TODO 1
+const environment = process.env.NODE_ENV !== 'production' ? 'development' : 'aji.wahidin'; //TOOD 3
+
+for(let i = 0; i <= 10000; i++){
+
+}
+const currentMemoryUsage = process.memoryUsage().heapUsed; ///TODO 4
+
+console.log(`Hai, ${yourName}`);
+console.log(`Mode environment: ${environment}`)
+console.log(`Penggunaan memori dari ${initialMemoryUsage} naik ke ${currentMemoryUsage}`);
+```
