@@ -2,9 +2,9 @@
   "name": "nodejs-web-server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "routing.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node routing.js"
   },
   "keywords": [],
   "author": "",
