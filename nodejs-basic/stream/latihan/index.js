@@ -10,9 +10,6 @@ const readableStream = fs.createReadStream('input.txt');
 readableStream.on('readable', () => {
     try {
         process.stdout.write(`[${readableStream.read()}]`);
-        // const a = fs.createWriteStream('output.txt');
-        // a.write(createReadStream('input.txt'));
-        // a.end('last');
     } catch(error) {
         // catch the error when the chunk cannot be read.
     }
@@ -22,5 +19,6 @@ readableStream.on('end', () => {
 });
 
 const createableStream = fs.createWriteStream('output.txt');
-createableStream.write(`${readableStream.read()}\n`);
-createableStream.end('last');
+const readFile = fs.readFileSync('input.txt','UTF-8');
+createableStream.write(readFile);
+createableStream.end();
