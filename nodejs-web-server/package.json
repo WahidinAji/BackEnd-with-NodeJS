@@ -4,7 +4,7 @@
   "description": "",
   "main": "routing.js",
   "scripts": {
-    "start": "node routing.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
