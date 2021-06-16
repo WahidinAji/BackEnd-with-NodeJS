@@ -16,6 +16,3 @@ Dengan ringkasan tersebut, diharapkan Anda dapat memahami semua materi yang tela
 
 
 ## Membangun Web Service menggunakan Node.js
-
-
-

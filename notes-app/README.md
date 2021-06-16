@@ -245,3 +245,6 @@ Anda berada di akhir dari modul Build Web Service using Node.js. Mari kita uraik
 - Anda sudah berhasil membangun RESTful API sederhana untuk mendukung fungsionalitas aplikasi Front-End.
 
 Dengan ringkasan tersebut, diharapkan Anda dapat memahami semua materi yang telah disampaikan. Jika belum, Anda bisa ulas kembali materi yang diberikan pada modul ini. Untuk Anda yang sudah merasa mantap, yuk lanjut ke modul berikutnya!
+
+## login SSH AWS ES
+- `ssh -i "notes-api-webserver.pem" ubuntu@ec2-54-179-255-248.ap-southeast-1.compute.amazonaws.com`
